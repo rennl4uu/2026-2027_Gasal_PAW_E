@@ -1,10 +1,9 @@
-//3A
 <?php
 // ini non-embedded script
 echo "Hello world";
 ?>
 
-//3B
+
 <!DOCTYPE html>
 <html>
 <head>
