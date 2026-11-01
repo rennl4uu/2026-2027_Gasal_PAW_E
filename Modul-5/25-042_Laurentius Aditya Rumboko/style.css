@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.box {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #3a7ca5;
+    font-weight: normal;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #d9edf7;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.hijau {
+    background: #5cb85c;
+}
+
+.oranye {
+    background: #e8650a;
+}
+
+.merah {
+    background: #d9232d;
+}
+
+/* Tata letak */
+.kanan {
+    float: right;
+}
+
+.inline {
+    display: inline;
+}
+
+.pesan {
+    background: #dff0d8;
+    padding: 8px;
+}
+
+/* Form */
+label {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.aksi {
+    margin-left: 84px;
+}

@@ -1,5 +1,5 @@
 <?php
-// ===== 4.1 =====
+// 4.1 
 $height = array("Andy" => "176", "Barry" => "165", "Charlie" => "170");
 
 // tambah 5 data baru
@@ -23,7 +23,7 @@ foreach ($height as $nama => $tinggi) {
 
 echo "<br>";
 
-// ===== 4.2 =====
+// 4.2
 $weight = array("Andy" => "70", "Barry" => "65", "Charlie" => "75");
 
 // tampilkan seluruh data dengan perulangan for
