@@ -20,11 +20,15 @@ function validateEmail(&$errors, $field_list, $field_name) {
 }
 
 function validatePassword(&$errors, $field_list, $field_name) {
+     $pattern = "/^[a-z]+$/";
+
     if (!isset($field_list[$field_name]) ||
         $field_list[$field_name] == '') {
         $errors[$field_name] = 'Password wajib diisi';
     } else if (strlen($field_list[$field_name]) < 8) {
         $errors[$field_name] = 'Password minimal 8 karakter';
+    } else if (!preg_match($pattern, $field_list[$field_name])){
+        $errors[$field_name] = 'Password hanya diisi huruf kecil';
     }
 }
 
